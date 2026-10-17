@@ -1,0 +1,23 @@
+# 模型檔（太大，放在 Google Drive，執行時自動下載）
+models/
+*.keras
+*.h5
+
+# 資料集（來自 Kaggle，不重新散布）
+train.csv
+*.zip
+train_images/
+test_images/
+
+# Python 暫存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Mac 系統檔
+.DS_Store
+
+# 機密資料
+.streamlit/secrets.toml
+.env
+*token*
